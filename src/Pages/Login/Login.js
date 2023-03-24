@@ -54,6 +54,7 @@ const Login = () => {
 							className={styles.input}
 						/>
 						{error && <div className={styles.error_msg}>{error}</div>}
+                        <p className='text-cyan-500 mr-56'>Forget Password?</p>
 						<button type="submit" className={styles.green_btn}>
 							Sign In
 						</button>
